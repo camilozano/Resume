@@ -1,0 +1,203 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Camilo Lozano",
+    "label": "Software Engineer",
+    "image": "./me.jpg",
+    "email": "lozanocamilo24@gmail.com",
+    "phone": "(786) 350 6531",
+    "url": "https://github.com/camilozano",
+    "summary": "Hi! I'm from Miami, FL and come from a Colombian background. I have been a developer for 6+ years. With a focus on space and ground control systems.",
+    "location": {
+      "city": "Miami",
+      "countryCode": "US",
+      "region": "Florida"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lozanocamilo"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Blue Origin",
+      "location": "Kennedy Space Center, FL",
+      "description": "New Glenn Integrated Ground Systems (NG IGS)",
+      "position": "Software Developer II",
+      "url": "https://www.blueorigin.com",
+      "startDate": "2022-06-01",
+      "summary": "Work on the team developing the software used for launch operations of the New Glenn rocket. In charge of DevOps for team as well as working on the backend of our product. ",
+      "highlights": [
+        "Parallelized and optimized build and test pipelines for software",
+        "Developed packaging system for project. Deployed RPMs, NSIS, WHL",
+        "Contributed new features to the core C++ platform",
+        "Helped develop panels/displays in Qt",
+        "Created tooling and infrastructure for integrating Squish testing framework in our workflow",
+        "Created C++ API for interfacing with internal service"
+      ]
+    },
+    {
+      "name": "NASA (TOSC)",
+      "location": "Kennedy Space Center, FL",
+      "description": "Launch Control Software (LCS)",
+      "position": "Software Developer II",
+      "url": "https://www.nasa.gov/humans-in-space/exploration-ground-systems/",
+      "startDate": "2019-06-01",
+      "endDate": "2022-06-01",
+      "summary": "Working on DevOps team to implement a multi flow pipeline for the current Launch Control System (LCS) for SLS.",
+      "highlights": [
+        "Founding member and sub lead of Multi Flow Team",
+        "Architect restructure of LCS software to allow for quicker deployments",
+        "Administer and manage Gitlab and Artifactory",
+        "Developed parser for existing data ingest into a dynamic built data product",
+        "Containerization of existing software",
+        "Develop testing framework/pipeline for validation"
+      ]
+    },
+    {
+      "name": "NASA Swampworks",
+      "location": "Kennedy Space Center, FL",
+      "description": "EZ-RASSOR Open Source Project",
+      "position": "Software Developer Intern",
+      "url": "https://github.com/FlaSpaceInst/EZ-RASSOR",
+      "startDate": "2018-09-01",
+      "endDate": "2019-05-01",
+      "summary": "Internship in conjunction with UCF, Florida Space Institute (FSI) and NASA Swampworks. In this project we were tasked with creating an open source implmentation of an existing Swampworks robot the RASSOR for use in situ mining. Our version would be mostly 3D printed and feature a full simulation.",
+      "highlights": [
+        "Used ROS for Pub/Sub real time system (RTS) commnucation between components.",
+        "Developed application in React Native for controlling of robot",
+        "Created Blender models for use in Gazebo simulation"
+      ]
+    },
+    {
+      "name": "Ektec",
+      "location": "Miami, FL",
+      "description": "Open Payment System for Transit",
+      "position": "Embedded Systems Developer",
+      "url": "https://ekteccorp.com",
+      "startDate": "2016-06-01",
+      "endDate": "2019-05-01",
+      "summary": "Ektec is a start up based in Miami that provides an open payment system for transportation systems, mainly servicing in Latin America. Allowing for use of regular bank cards at bus/transit/metro stops instead of a metro card.",
+      "highlights": [
+        "Created an application for processing asynchronous credit card transactions on an embedded system",
+        "Integrated POS terminal, GPS, GPRS modem, relay switches to interface all together, for use in transit systems.",
+        "Sole developer for embedded device, in charge of deployment, maintenance and life cycle of devices"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Junior Knights at UCF",
+      "position": "Teacher",
+      "url": "https://www.cs.ucf.edu/JuniorKnights/",
+      "startDate": "2016-09-01",
+      "endDate": "2018-09-01",
+      "summary": "Program to teach high school students programming",
+      "highlights": [
+        "Taught beginners to advanced, in Java, C and Python.",
+        "Lead a class that provided extra help to students taking the AP Computer Science exam."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Miami Dade College",
+      "area": "Associate of Arts",
+      "studyType": "Associate",
+      "startDate": "2013-06-01",
+      "endDate": "2016-06-01"
+    },
+    {
+      "institution": "University of Central Florida",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2016-08-01",
+      "endDate": "2019-05-01",
+      "courses": [
+        "Database Systems",
+        "Advanced Networks"
+      ]
+    },
+    {
+      "institution": "University of Central Florida",
+      "area": "Computer Science",
+      "studyType": "Masters",
+      "startDate": "2019-05-01",
+      "endDate": "2020-05-01",
+      "courses": [
+        "BioInformatics",
+        "Machine Learning",
+        "Mixed Reality",
+        "Parallel Computing"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "C++",
+        "Java",
+        "CMake"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Gitlab CI",
+        "Docker",
+        "Ansible",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "Master",
+      "keywords": [
+        "Bash",
+        "Vim",
+        "Git",
+        "VS Code",
+        "Dev Containers"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Familiar",
+      "keywords": [
+        "Qt",
+        "React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Self Hosting",
+      "keywords": [
+        "Docker",
+        "NGINX",
+        "Wireguard",
+        "Cloud",
+        "Kubernetes"
+      ]
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0"
+  }
+}
