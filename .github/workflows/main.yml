@@ -17,6 +17,8 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     needs: check_run
     steps:
       - uses: actions/checkout@v2
