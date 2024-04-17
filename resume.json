@@ -7,7 +7,7 @@
     "email": "lozanocamilo24@gmail.com",
     "phone": "(786) 350 6531",
     "url": "https://github.com/camilozano",
-    "summary": "Hi! I'm from Miami, FL and come from a Colombian background. I have been a developer for 6+ years. With a focus on space and ground control systems.",
+    "summary": "Hi! I'm from Miami, FL and come from a Colombian background. I have been a developer for 5+ years. I specialize in backend development with a passion for optimizing and automating workflows with DevOps tools.",
     "location": {
       "city": "Miami",
       "countryCode": "US",
@@ -28,14 +28,14 @@
       "position": "Software Developer II",
       "url": "https://www.blueorigin.com",
       "startDate": "2022-06-01",
-      "summary": "Work on the team developing the software used for launch operations of the New Glenn rocket. In charge of DevOps for team as well as working on the backend of our product. ",
+      "summary": "Work on the team developing the software used for launch operations of the New Glenn rocket. Our product provides the telemetry and commincation system for interfacing between ground control, the rocket and other providers. Requiring a high throughput backend for handling massive changes per second.  In charge of DevOps and CI/CD for team as well as working on the backend of our product. ",
       "highlights": [
-        "Parallelized and optimized build and test pipelines for software",
-        "Developed packaging system for project. Deployed RPMs, NSIS, WHL",
-        "Contributed new features to the core C++ platform",
-        "Helped develop panels/displays in Qt",
-        "Created tooling and infrastructure for integrating Squish testing framework in our workflow",
-        "Created C++ API for interfacing with internal service"
+        "Sped up pipeline runtimes by 20% by parallelizing builds and tests",
+        "Developed packaging system for project used by all our customers. Deployed RPMs, NSIS, WHL. Allowing for faster deployments and software turnaround",
+        "Developed panels/displays in Qt for launch control",
+        "Created tooling and infrastructure for integrating QT Squish testing. Paved way for automating of verification and validation tests",
+        "Implemented and delivered a C++ API for interfacing with internal service. Used GTest for e2e testing",
+        "Worked on integrating GPT into developer workflow for testing, documentation and debugging"
       ]
     },
     {
@@ -46,13 +46,13 @@
       "url": "https://www.nasa.gov/humans-in-space/exploration-ground-systems/",
       "startDate": "2019-06-01",
       "endDate": "2022-06-01",
-      "summary": "Working on DevOps team to implement a multi flow pipeline for the current Launch Control System (LCS) for SLS.",
+      "summary": "In this role I worked directly on the next iteration of the Launch Control System (LCS) that is used by NASA to launch the Artermis SLS rocket. I helped lead a team that worked in the restructuring of the current architecture. Previously new software revisions would take on the magntidue of days from commit to deployment on hardware.",
       "highlights": [
-        "Founding member and sub lead of Multi Flow Team",
-        "Architect restructure of LCS software to allow for quicker deployments",
-        "Administer and manage Gitlab and Artifactory",
-        "Developed parser for existing data ingest into a dynamic built data product",
-        "Containerization of existing software",
+        "Founding member and sub lead of new DevOps team made to reimplement LCS",
+        "Sped up software deployment time from order of days to hours",
+        "Administered and managed Gitlab (as well as our own runners, scaled through k8s )and Artifactory instances",
+        "Decoupled bulk data injest from build step to post build on demand",
+        "Containerization of existing software into microservices",
         "Develop testing framework/pipeline for validation"
       ]
     },
@@ -79,36 +79,16 @@
       "url": "https://ekteccorp.com",
       "startDate": "2016-06-01",
       "endDate": "2019-05-01",
-      "summary": "Ektec is a start up based in Miami that provides an open payment system for transportation systems, mainly servicing in Latin America. Allowing for use of regular bank cards at bus/transit/metro stops instead of a metro card.",
+      "summary": "Ektec is a start up based in Miami that provides an open payment system for transportation systems, mainly servicing in Latin America. Allowing for use of regular bank cards at bus/transit/metro stops instead of a metro card. The product functioned as an edge computing application, with unreliable network connection. Device procesed transactions asynchronously, and synced whenever network was available ",
       "highlights": [
-        "Created an application for processing asynchronous credit card transactions on an embedded system",
+        "Created an application in Python for processing asynchronous credit card transactions on an embedded system",
         "Integrated POS terminal, GPS, GPRS modem, relay switches to interface all together, for use in transit systems.",
-        "Sole developer for embedded device, in charge of deployment, maintenance and life cycle of devices"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Junior Knights at UCF",
-      "position": "Teacher",
-      "url": "https://www.cs.ucf.edu/JuniorKnights/",
-      "startDate": "2016-09-01",
-      "endDate": "2018-09-01",
-      "summary": "Program to teach high school students programming",
-      "highlights": [
-        "Taught beginners to advanced, in Java, C and Python.",
-        "Lead a class that provided extra help to students taking the AP Computer Science exam."
+        "Sole developer for embedded device, in charge of deployment, maintenance and life cycle of devices",
+        "Setup provisioning of devices, as well as maintaining and updating fleet of devices"
       ]
     }
   ],
   "education": [
-    {
-      "institution": "Miami Dade College",
-      "area": "Associate of Arts",
-      "studyType": "Associate",
-      "startDate": "2013-06-01",
-      "endDate": "2016-06-01"
-    },
     {
       "institution": "University of Central Florida",
       "area": "Computer Science",
@@ -137,7 +117,6 @@
   "skills": [
     {
       "name": "Backend Development",
-      "level": "Master",
       "keywords": [
         "Python",
         "C++",
@@ -147,17 +126,16 @@
     },
     {
       "name": "DevOps",
-      "level": "Intermediate",
       "keywords": [
         "Gitlab CI",
         "Docker",
         "Ansible",
-        "Jenkins"
+        "Jenkins",
+        "DataDog"
       ]
     },
     {
       "name": "Tools",
-      "level": "Master",
       "keywords": [
         "Bash",
         "Vim",
@@ -167,8 +145,14 @@
       ]
     },
     {
+      "name": "Cloud",
+      "keywords": [
+        "Oracle Cloud",
+        "Google Cloud"
+      ]
+    },
+    {
       "name": "Frontend",
-      "level": "Familiar",
       "keywords": [
         "Qt",
         "React"
