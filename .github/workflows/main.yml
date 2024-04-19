@@ -31,5 +31,3 @@ jobs:
           output_filepath: docs/index.html
       - uses: EndBug/add-and-commit@v9
         name: Commit published HTML
-        with:
-          add: 'docs/index.html'
